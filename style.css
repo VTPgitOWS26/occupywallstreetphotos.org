@@ -603,17 +603,18 @@ a {
 
 .closing-motto{
     max-width:850px;
-    margin:0 auto 60px;
+    margin:0 auto 48px;
     font-family:"Cormorant Garamond",serif;
-    font-size:32px;
+    font-size:28px;
     font-style:italic;
     line-height:1.4;
     color:#666;
 }
 
-.closing-facts p{
-    margin:14px 0;
-    font-size:28px;
-    font-weight:300;
-    letter-spacing:.03em;
+..closing-facts p{
+    margin:10px 0;
+    font-family:"Cormorant Garamond",serif;
+    font-size:24px;
+    font-weight:500;
+    line-height:1.5;
 }
