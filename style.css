@@ -617,11 +617,3 @@ a {
     font-weight:300;
     letter-spacing:.03em;
 }
-
-.closing-signature{
-    margin-top:60px;
-    font-family:"Cormorant Garamond",serif;
-    font-size:34px;
-    font-style:italic;
-    color:#444;
-}
