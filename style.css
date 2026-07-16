@@ -611,10 +611,15 @@ a {
     color:#666;
 }
 
-..closing-facts p{
-    margin:10px 0;
-    font-family:"Cormorant Garamond",serif;
-    font-size:24px;
-    font-weight:500;
-    line-height:1.5;
+.closing-facts{
+    margin-top:40px;
+}
+
+.closing-facts p{
+    margin:0;
+    font-family:"Inter",sans-serif;
+    font-size:22px;
+    font-weight:400;
+    line-height:1.55;
+    color:#333;
 }
