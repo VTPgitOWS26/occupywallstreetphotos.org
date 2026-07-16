@@ -495,17 +495,14 @@
 /* Responsive */
 
 @media (max-width: 1050px) {
-  .nav-links {
-    display: none;
-    position: absolute;
-    top: var(--header-height);
-    left: 0;
-    right: 0;
-    padding: 22px 28px 28px;
-    color: var(--ink);
-    background: rgba(255, 255, 255, 0.98);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-  }
+    :root {
+        --header-height: 76px;
+    }
+
+    .site-nav {
+        padding: 0 22px;
+    }
+}
 
   .nav-links.is-open {
     display: grid;
