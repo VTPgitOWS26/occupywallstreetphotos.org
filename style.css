@@ -619,9 +619,9 @@ a {
 }
 
 .closing-signature{
-    margin-top:55px;
+    margin-top:60px;
     font-family:"Cormorant Garamond",serif;
-    font-size:28px;
+    font-size:34px;
     font-style:italic;
-    color:#555;
+    color:#444;
 }
