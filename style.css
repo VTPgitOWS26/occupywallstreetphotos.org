@@ -93,11 +93,17 @@ a {
   white-space: nowrap;
 }
 
-..nav-links {
+.nav-links {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: flex-end;
   gap: 27px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-links li {
   margin: 0;
   padding: 0;
   list-style: none;
