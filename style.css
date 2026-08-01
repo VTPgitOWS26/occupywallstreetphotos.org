@@ -705,3 +705,12 @@ a {
 .contact a {
     text-decoration: none;
 }
+/* Press page header */
+
+.press-page-header,
+body:has(.press-page) .site-header {
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.98);
+  border-bottom-color: rgba(0, 0, 0, 0.09);
+  backdrop-filter: blur(12px);
+}
