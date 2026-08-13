@@ -422,13 +422,41 @@ a {
 
 /* Book and biography */
 
-.feature-section {
-  text-align: center;
+.book-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(300px, 0.9fr);
+  align-items: center;
+  gap: clamp(42px, 7vw, 96px);
+  background: var(--soft);
 }
 
-.feature-copy {
-  max-width: 680px;
-  margin: 0 auto;
+.book-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 24px 58px rgba(0, 0, 0, 0.2);
+}
+
+.book-copy {
+  max-width: 600px;
+}
+
+.book-copy h2 {
+  margin-bottom: 8px;
+}
+
+.book-subtitle {
+  margin: 0 0 28px;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(1.2rem, 2vw, 1.55rem);
+  line-height: 1.25;
+}
+
+.book-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
 }
 
 .button {
@@ -525,6 +553,23 @@ a {
 }
 
 @media (max-width: 760px) {
+  .book-section {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+
+  .book-copy {
+    max-width: none;
+  }
+
+  .book-links {
+    display: block;
+  }
+
+  .book-links .button {
+    margin-right: 8px;
+  }
+
   :root {
     --header-height: 68px;
   }
