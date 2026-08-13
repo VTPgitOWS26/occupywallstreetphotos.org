@@ -759,3 +759,10 @@ body:has(.press-page) .site-header {
   border-bottom-color: rgba(0, 0, 0, 0.09);
   backdrop-filter: blur(12px);
 }
+.book-editions {
+  margin: -14px 0 28px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
