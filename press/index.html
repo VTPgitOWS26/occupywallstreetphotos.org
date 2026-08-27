@@ -20,20 +20,16 @@
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="../style.css?v=11">
-
+  <link rel="stylesheet" href="../style.css?v=12">
   <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S9R1RGYG20"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S9R1RGYG20"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-    gtag('config', 'G-S9R1RGYG20');
-  </script>
+  gtag('config', 'G-S9R1RGYG20');
+</script>
 </head>
 
 <body id="top">
@@ -137,7 +133,7 @@
 
         <li>
           <a
-            href="../pdf/Press_Release.pdf"
+            href="../pdf/Press_Release.pdf?v=2"
             target="_blank"
             rel="noopener">
             Press Release
@@ -179,6 +175,38 @@
 
     </section>
 
+    <!-- Published Press Releases -->
+
+    <section class="links published-releases">
+
+      <h2>Published Press Releases</h2>
+
+      <ul>
+
+        <li>
+          <a
+            href="https://www.prlog.org/13164478"
+            target="_blank"
+            rel="noopener">
+            New Photobook “Occupy USA” Preserves an 18-City Visual Archive of the Occupy Movement
+          </a>
+          — August 25, 2026
+        </li>
+
+        <li>
+          <a
+            href="https://www.prlog.org/13166886"
+            target="_blank"
+            rel="noopener">
+            New Photobook “Occupy USA” Documents 18 Occupy Communities Across the United States
+          </a>
+          — August 26, 2026
+        </li>
+
+      </ul>
+
+    </section>
+
     <!-- Archive Overview -->
 
     <section class="press-images">
@@ -191,10 +219,14 @@
       </p>
 
       <figure>
+
         <img
           src="../images/archive-overview.jpg"
           alt="A chronological overview of 18 Occupy encampments photographed by Vance Petrunoff between October 2011 and May 2012"
           loading="lazy">
+
+    
+
       </figure>
 
     </section>
